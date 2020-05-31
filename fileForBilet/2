@@ -6,12 +6,12 @@ skinparam class {
 	BorderColor Black
 }
 
-class A1 as "Раздел"
-class A2 as "Раздел 1"
-class A3 as "Раздел 2"
-class A4 as "Раздел 3"
-class A5 as "Раздел 1"
-class A6 as "Раздел 2"
+class A1 as "Документ 1 : Документ"
+class A2 as "Раздел 1: Раздел"
+class A3 as "Раздел 2: Раздел"
+class A4 as "Раздел 3: Раздел"
+class A5 as "Раздел 1.1: Раздел"
+class A6 as "Раздел 1.2: Раздел"
 
 
 
