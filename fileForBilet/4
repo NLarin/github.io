@@ -1,0 +1,40 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+
+class A1 as "engineering : Organization"
+{
+location = "Boston"
+}
+class A2 as "tools: Organization"
+{
+location = "Chicago"
+}
+class A3 as "apps: Organization"
+{
+location = "Saba"
+}
+class A4 as "Don : Person"
+{
+location = "Champaign"
+}
+class A5 as "John : Person"
+{
+location = "Champaign"
+}
+
+
+
+A1 -- A2
+A1 "Родитель" -- A3
+A2-- A4
+A2 "Родитель" -- A5
+
+
+hide circle
+hide methods
+@enduml
