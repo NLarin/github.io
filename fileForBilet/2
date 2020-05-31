@@ -1,0 +1,27 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+
+class A1 as "Раздел"
+class A2 as "Раздел 1"
+class A3 as "Раздел 2"
+class A4 as "Раздел 3"
+class A5 as "Раздел 1"
+class A6 as "Раздел 2"
+
+
+
+A1 -- A2
+A1 -- A3
+A1 -- A4
+A2 -- A5
+A2 -- A6
+
+hide members
+hide circle
+hide methods
+@enduml
