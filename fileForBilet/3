@@ -1,0 +1,26 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+
+class Party
+{
+Номер
+Наименование
+}
+
+class Person
+class Organization
+
+
+Party <|-- Person
+Party <|-- Organization
+Party -o "0..1 родитель" Organization
+
+
+hide circle
+hide methods
+@enduml
